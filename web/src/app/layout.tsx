@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 ----------------
 next/font/google
 ----------------
+Definindo as fontes padrão da aplicação
 O next font evita o Layout Shift , que é o efeito que algumas paginas tem de mostrar a 
 fonte padrão e depois trocar para a fonte que você escolheu.
  */
