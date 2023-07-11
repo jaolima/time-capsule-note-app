@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import { User } from 'lucide-react'
+
+import nlwLogo from '../assets/nlw-spacetime-logo.svg'
+
 export default function Home() {
   return (
     <main className="grid min-h-screen grid-cols-2 ">
@@ -15,7 +20,7 @@ export default function Home() {
         className="flex items-center gap-3 text-left transition-colors hover:text-gray-50"
       >
         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
-          {/* <User className="h-5 w-5 text-gray-500" /> */}
+          <User className="h-5 w-5 text-gray-500" />
         </div>
 
         <p className="max-w-[140px] text-sm leading-snug">
@@ -26,7 +31,7 @@ export default function Home() {
 
       {/* Hero */}
       <div className="space-y-5">
-        {/* <Image src={nlwLogo} alt="NLW Spacetime" /> */}
+        <Image src={nlwLogo} alt="NLW Spacetime" />
 
         <div className="max-w-[420px] space-y-1">
           <h1 className="text-5xl font-bold leading-tight text-gray-50">
